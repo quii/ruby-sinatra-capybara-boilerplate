@@ -1,5 +1,7 @@
 # Ruby Sinatra Cabybara boilerplate
 
+[![Build Status](https://travis-ci.org/quii/ruby-sinatra-capybara-boilerplate.svg?branch=master)](https://travis-ci.org/quii/ruby-sinatra-capybara-boilerplate)
+
 Boilerplate for writing a webserver with Sinatra, tested with rspec and Capybara
 
 ## Prerequisites
