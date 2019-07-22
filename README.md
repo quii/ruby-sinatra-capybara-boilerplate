@@ -14,8 +14,6 @@ Boilerplate for writing a webserver with Sinatra, tested with rspec and Capybara
 ## Get started
 
 - Clone it
-- `$ gem install bundler`
-- `$ gem install rake`
 - `$ bundle install`
 
 ## Test
