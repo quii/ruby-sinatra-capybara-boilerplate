@@ -23,3 +23,13 @@ Boilerplate for writing a webserver with Sinatra, tested with rspec and Capybara
 ## Run
 
 `$ rake web`
+
+## Watching for changes
+
+I like using [entr](http://eradman.com/entrproject/) (`brew install entr`) because it's a language-agnostic way of restarting a process rather than faffing around with nodemon or whatever. More unix-y. 
+
+`$ ag --ruby -l | entr -r -c rake web`
+
+or for tests
+
+`$ ag --ruby -l | entr -r -c rake`
